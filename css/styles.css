@@ -1,0 +1,248 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ font-family: 'Nunito', sans-serif;
+ background-color: #F4FBF9;
+}
+
+/* BEGIN HEADER */
+
+header,
+.top_heading {
+ background-color: #2D3B46;
+ color: #ffffff;
+ text-align: center;
+ padding: .4em;
+ font-size: 1.2rem;
+ text-transform: uppercase;
+}
+
+/* BEGIN MAIN */
+
+main {
+ padding-left: 1em;
+ padding-right: 1em;
+}
+
+.signup {
+ text-align: center;
+ margin-bottom: .2em;
+ padding-bottom: 1.5em;
+ border-bottom: .2em solid black;
+}
+
+h1 {
+ font-size: 1.5rem;
+ margin: .5em auto;
+}
+
+legend {
+ padding-top: .8em;
+ font-size: 1.5rem;
+ font-weight: bold;
+}
+
+fieldset {
+ border: none;
+ padding: 0;
+ margin: 0;
+}
+
+form {
+ border-top: 2px solid black;
+}
+
+.contact {
+ padding-bottom: 1.5em;
+ border-bottom: .1em solid black;
+}
+
+.contact li {
+ display: flex;
+ flex-direction: column;
+ list-style-type: none;
+ margin-top: 1em;
+}
+
+.contact label,
+#state {
+ margin-bottom: .5em;
+ color: gray;
+}
+
+.contact input,
+select {
+ height: 50px;
+ padding-left: .3em;
+ border-radius: 4px;
+ border: transparent;
+ background-color: #ECEDEF;
+}
+
+#zip {
+ width: 50%;
+}
+
+input:focus,
+select:focus {
+ outline-color: black;
+ transition: color 0.2s ease-in, text-shadow 0.2s ease-in, background-color 0.25s linear 0s;
+ background-color: white;
+}
+
+
+
+input::placeholder {
+ text-align: right;
+ vertical-align: middle;
+ padding-right: 1em;
+ font-style: italic;
+ font-size: .8rem;
+}
+
+/* BEING 2ND HALF OF FORM */
+
+.newsletter li {
+ margin-left: 0;
+ list-style-type: none;
+ padding-bottom: .5em;
+ vertical-align: middle;
+ color: gray;
+}
+
+.secondary label {
+ vertical-align: middle;
+}
+
+.secondary p {
+ padding-top: .6em;
+ padding-bottom: 1em;
+ color: gray;
+}
+
+.secondary p:nth-of-type(2) {
+ padding-top: 1em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+ vertical-align: middle;
+ margin-right: .3em;
+}
+
+textarea {
+ width: 100%;
+ height: 6em;
+ border: none;
+ margin-top: 1em;
+ margin-bottom: .5em;
+ padding-top: .2em;
+ padding-left: .3em;
+ border-radius: 4px;
+ border: transparent;
+ background-color: #ECEDEF;
+}
+
+textarea::placeholder {
+ padding-top: .3em;
+ color: gray;
+}
+
+.textarea-label {
+ padding-top: 1.5em;
+ color: gray;
+}
+
+textarea:focus {
+ outline-color: black;
+ transition: color 0.2s ease-in, text-shadow 0.2s ease-in, background-color 0.25s linear 0s;
+ background-color: white;
+}
+
+button {
+ background-color: #54B8B6;
+ width: 100%;
+ font-size: 1.3rem;
+ display: block;
+ margin: 1em auto;
+ padding: 1em 0;
+ border: 2px;
+ border-radius: 6px;
+ text-align: center;
+ color: white;
+}
+
+button:focus {
+ outline: none;
+ background-color: gray;
+}
+
+/* BEGIN FOOTER */
+
+footer p {
+ margin-bottom: 6em;
+ text-align: center;
+ font-style: italic;
+ color: #2D3B46;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+
+ .primary ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.primary li,
+.primary label {
+display: inline-block;
+}
+
+.primary li label {
+ width: 30%;
+}
+
+.primary li input {
+ width: 65%;
+}
+
+#state {
+ width: 65%;
+}
+
+#zip {
+ width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
